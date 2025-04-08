@@ -1,0 +1,1 @@
+export const DB_NAME = 'coffee-video-app';
