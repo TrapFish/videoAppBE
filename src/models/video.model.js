@@ -14,7 +14,7 @@ const videoSchema = mongoose.Schema({
         type: String, 
         required: true,
     },
-    discription: {
+    description: {
         type: String, 
         required: true,
     },
@@ -30,7 +30,7 @@ const videoSchema = mongoose.Schema({
         type: Boolean,
         default: true,
     },
-    isOwner: {
+    owner: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
     }
